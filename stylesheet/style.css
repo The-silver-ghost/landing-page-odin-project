@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header,.middle-middle{
+    padding: 48px;
+}
+
+.bottom-middle{
+    margin: 50px;
+}
+
+.first-row,.second-row,.image,.image-subtext,.middle-middle,.bottom-middle {
+    display: flex;
+}
+
+.left{
+    flex-grow: 1;
+}
+
+.center{
+    display: flex;
+}
+
+.image,.image-subtext,.center,.middle-middle{
+    justify-content: center;
+    gap: 16px;
+}
