@@ -32,3 +32,11 @@ body {
 .image-and-subtext{
     flex-direction: column;
 }
+
+.bottom-middle{
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+}
