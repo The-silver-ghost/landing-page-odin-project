@@ -2,9 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif,roboto;
 }
 
 .header,.middle-middle{
+    padding: 0 48px 48px 48px;
+}
+
+.middle-middle{
     padding: 48px;
 }
 
@@ -16,8 +21,17 @@ body {
     display: flex;
 }
 
+.first-row{
+    padding: 16px 0 16px 0;
+}
+
 .left{
     flex-grow: 1;
+}
+
+#header-links{
+    display: flex;
+    gap: 16px;
 }
 
 .center{
@@ -39,4 +53,29 @@ body {
 
 .footer{
     text-align: center;
+}
+
+.header,.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+a,#secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button{
+    padding: 8px 16px;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
 }
