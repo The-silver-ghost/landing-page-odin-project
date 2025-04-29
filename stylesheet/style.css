@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Times New Roman', Times, serif,roboto;
+    margin: 0;
 }
 
 .header,.middle-middle{
