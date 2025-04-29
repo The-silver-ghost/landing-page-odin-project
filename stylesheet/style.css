@@ -28,3 +28,7 @@ body {
     justify-content: center;
     gap: 16px;
 }
+
+.image-and-subtext{
+    flex-direction: column;
+}
