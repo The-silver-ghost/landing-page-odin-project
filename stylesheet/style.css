@@ -14,10 +14,6 @@ body {
     padding: 48px;
 }
 
-.bottom-middle{
-    margin: 50px;
-}
-
 .first-row,.second-row,.image,.image-subtext,.middle-middle,.bottom-middle {
     display: flex;
 }
@@ -54,10 +50,6 @@ img.image-and-subtext{
     border: 4px solid blue;
 }
 
-.bottom-middle{
-    align-items: center;
-}
-
 .footer{
     text-align: center;
 }
@@ -81,6 +73,10 @@ h2{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+h3{
+    font-size: 24px;
 }
 
 button{
@@ -111,4 +107,17 @@ button{
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+}
+
+.bottom-middle{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px 48px;
+    border-radius: 6px;
+    margin: 90px 150px;
+    align-items: center;
+}
+
+#bottom-button{
+    border: 2px solid white;
 }
