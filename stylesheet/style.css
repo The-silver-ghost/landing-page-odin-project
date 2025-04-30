@@ -46,6 +46,12 @@ body {
 
 .image-and-subtext{
     flex-direction: column;
+    width: 140px;
+    border-radius: 6px;
+    text-align: center;
+}
+img.image-and-subtext{
+    border: 4px solid blue;
 }
 
 .bottom-middle{
@@ -69,6 +75,12 @@ a,#secondary-text{
 h1{
     font-weight: 900;
     font-size: 48px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 button{
